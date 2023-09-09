@@ -1,8 +1,8 @@
 # Professional JavaScript Course -- [See course here](https://bytegrad.com/courses/professional-javascript)
 
-**Make sure you're subscribed to the email newsletter to be notified & get a launch discount when I release my new React & Next.js course: https://email.bytegrad.com**
+**Important: my new React & Next.js course is almost released and will only be available on https://ByteGrad.com - Make sure you're subscribed to the email newsletter to be notified & get a launch discount: https://email.bytegrad.com**
 
-**You can find the final code for each video in the project folders**. Use that if you get stuck. There is also a bugs file, a slides file and a readme file (you're reading it right now).
+You can find the final code for each video in the project folders. Use that if you get stuck. There is also a bugs file, a slides file and a readme file (you're reading it right now).
 
 ## Something is not working! What should I do?
 
