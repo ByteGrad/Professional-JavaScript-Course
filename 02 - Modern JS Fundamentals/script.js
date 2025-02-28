@@ -1,19 +1,46 @@
 // -- variables (var/let/const) & data types/structures (strings/numbers/booleans/arrays/objects) --
-// const description = 'We need a new floor.';
-// const squareMeters = 100;
-// const specialCoating = true;
-// const floorOptions = ['carpet', 'hardwood', 'tiles'];
-// const renovationJob = {
-//     ownerName: 'John',
-//     maximumPrice: 5000,
-//     category: 'bathroom',
-//     newShower: true
-// };
+// var description = 'We need a new floor.';
+// var squareMeters = 100;
+const description = 'We need a new floor.';
+const squareMeters = 100;
+const specialCoating = true;
+const floorOptions = ['carpet', 'plastic', 99, true];
+const renovationJob = {
+    ownerName: {
+        name: 'Rustam',
+        age: 32,
+        address: 'Prague, Czech',
+    },
+    maximumPrice: 25000,
+    category: 'bathroom',
+    newshower: true,
+    colorOptions: ['blue', 'green', 'red']
+};
+
+const errior = {
+    statusCode: 404,
+    description: 'Page not found',
+    retry: false
+}
+
+
+
+console.log(5);
+console.log(floorOptions[0]);
+console.log(renovationJob.ownerName.name);
+console.log(renovationJob.maximumPrice);
+
+
 
 
 // -- traditional functions vs arrow functions --
-
-// function calculatePrice(sqMeters) {
+function calculatePrice() {
+    const price = 1000 + 3000
+    console.log(price);
+    console.log('Hello from Rustam to the World')
+}
+calculatePrice();
+;// function calculatePrice(sqMeters) {
 //     return 1000 + sqMeters;
 // }
 
