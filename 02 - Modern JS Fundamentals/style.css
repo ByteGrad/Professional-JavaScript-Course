@@ -5,13 +5,13 @@
   --color-background: hsla(49, 24%, 91%, 0.649);
 }
 .body {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
 }
 .main {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    background-color: var(--color-background);
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  background-color: var(--color-background);
 }
 .heading {
   font-size: 15px;
@@ -28,7 +28,7 @@
   background-color: var(--color-secondary);
   cursor: pointer;
   color: var(--color-tertiary);
-  
+}
 /* .heading--big {
   font-size: 55px;
 } */
