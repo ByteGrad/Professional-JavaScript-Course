@@ -83,9 +83,9 @@ const errior = {
 // console.log(result);
 
 // Chapter! if-else vs ternary operator --
-const price = 1998+1000*1.2/10;
-const weather = 'bad'
-console.log(price);
+// const price = 1998+1000*1.2/10;
+// const weather = 'bad'
+// console.log(price);
 // if (price > 2000) {
 //     console.log('Your are rich');
 // } else {
@@ -134,5 +134,22 @@ console.log(price);
 // console.log (Ahoj);
 
 //Chapter!!! -- manipulating HTML and CSS --
-console
+// document.getElementById('')
+// document.getElementsByClassName('')
+
+// headingEl.textContent = 'Hello All!!';
+// headingEl.innerHTML = 'Hello <span class="heading--big">All</span>!!';
+// headingEl.insertAdjacentHTML('beforebegin','Hello <span class="heading--big">All</span>!!')
+// headingEl.style.fontSize = '55px';
+// headingEl.classList.add('heading--big');
+
+const headingEl = document.querySelector('.heading');
+// Chapter ---- Event Handler !!
+const clickHandler = () => { 
+    headingEl.style.color = 'blue';
+    console.log('change color');
+}
+
+
+headingEl.addEventListener('click', clickHandler);
 

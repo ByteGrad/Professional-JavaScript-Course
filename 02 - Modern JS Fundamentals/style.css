@@ -29,6 +29,13 @@
   cursor: pointer;
   color: var(--color-tertiary);
 }
+.heading--big {
+  font-size: 55px;
+  background-color: violet;
+}
+.heading--scrolling {
+  animation: scrolling 5s infinite;
+}
 /* .heading--big {
   font-size: 55px;
 } */
