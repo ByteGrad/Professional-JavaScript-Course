@@ -48,7 +48,7 @@ const renderJobList = (whichJobList = 'search') => {
                 </a>
             </li>
         `;
-        jobListEl.insertAdjacentHTML('beforeend', newJobItemHTML);
+        jobListEl.insertAdjacentHTML('beforeend', ByteGradSecurity.sanitizeHTML(newJobItemHTML));
     });
 };
 

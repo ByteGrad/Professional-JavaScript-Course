@@ -28,7 +28,7 @@ const renderFeedbackItem = feedbackItem => {
     `;
 
     // insert new feedback item in list
-    feedbackListEl.insertAdjacentHTML('beforeend', feedbackItemHTML);
+    feedbackListEl.insertAdjacentHTML('beforeend', ByteGradSecurity.sanitizeHTML(feedbackItemHTML));
 };
 
 

@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directories:
+  - /
+  - /08 - rmtDev/Build Process (webpack)
+  - /09 - Supplemental/Formatting in JS
+  schedule:
+    interval: weekly
+  groups:
+    routine-updates:
+      patterns:
+      - '*'
+  open-pull-requests-limit: 5
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: weekly

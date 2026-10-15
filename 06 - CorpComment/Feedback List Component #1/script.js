@@ -86,7 +86,7 @@ const submitHandler = event => {
     `;
 
     // insert new feedback item in list
-    feedbackListEl.insertAdjacentHTML('beforeend', feedbackItemHTML);
+    feedbackListEl.insertAdjacentHTML('beforeend', ByteGradSecurity.sanitizeHTML(feedbackItemHTML));
 
     // clear textarea
     textareaEl.value = '';
@@ -129,7 +129,7 @@ fetch('https://bytegrad.com/course-assets/js/1/api/feedbacks')
             `;
     
             // insert new feedback item in list
-            feedbackListEl.insertAdjacentHTML('beforeend', feedbackItemHTML);
+            feedbackListEl.insertAdjacentHTML('beforeend', ByteGradSecurity.sanitizeHTML(feedbackItemHTML));
         });
     })
     .catch(error => {

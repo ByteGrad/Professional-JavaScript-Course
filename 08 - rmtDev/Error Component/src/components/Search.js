@@ -73,7 +73,7 @@ const submitHandler = event => {
                         </a>
                     </li>
                 `;
-                jobListSearchEl.insertAdjacentHTML('beforeend', newJobItemHTML);
+                jobListSearchEl.insertAdjacentHTML('beforeend', ByteGradSecurity.sanitizeHTML(newJobItemHTML));
             });
         })
         .catch(error => console.log(error));

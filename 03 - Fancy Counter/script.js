@@ -65,7 +65,7 @@ const incrementCounter = () => {
     counterEl.classList.add('counter--limit');
 
     // update counter title to say limit has been reached
-    counterTitleEl.innerHTML = 'Limit! Buy <b>Pro</b> for >5';
+    counterTitleEl.innerHTML = ByteGradSecurity.sanitizeHTML('Limit! Buy <b>Pro</b> for >5');
 
     // disable increase and decrease buttons
     increaseButtonEl.disabled = true;

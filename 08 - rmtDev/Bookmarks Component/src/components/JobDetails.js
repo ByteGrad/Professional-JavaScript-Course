@@ -56,7 +56,7 @@ const renderJobDetails = jobItem => {
             <p class="job-details__footer-text">If possible, please reference that you found the job on <span class="u-bold">rmtDev</span>, we would really appreciate it!</p>
         </footer>
     `;
-    jobDetailsContentEl.innerHTML = jobDetailsHTML;
+    jobDetailsContentEl.innerHTML = ByteGradSecurity.sanitizeHTML(jobDetailsHTML);
 };
 
 export default renderJobDetails;
